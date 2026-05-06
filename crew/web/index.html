@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Behind the Wings</title>
+    <link rel="icon" href="data:," />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Entry view -->
+    <div class="entry">
+      <img class="title-img" src="pic/title.gif" alt="behind the wings" />
+      <img class="subtitle-img" src="pic/instructions.gif" alt="use your keys to connect" />
+      <div class="actions">
+        <button id="connect">Connect Arduino</button>
+        <div id="status" class="status">Not connected.</div>
+      </div>
+    </div>
+
+    <!-- Profile view (hidden until a switch fires) -->
+    <div class="profile" aria-hidden="true">
+      <div class="card">
+        <div class="avatar-wrap">
+          <img class="avatar" id="avatar" alt="" />
+        </div>
+        <div class="info">
+          <h2 class="name" id="name"></h2>
+          <div class="role" id="role"></div>
+          <div class="location" id="location"></div>
+          <p class="description" id="description"></p>
+          <div class="social" id="social"></div>
+          <div class="past-label">Worked on</div>
+          <div class="past-list" id="pastList"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="corner-status" id="cornerStatus"></div>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

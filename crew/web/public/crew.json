@@ -1,0 +1,76 @@
+{
+  "people": [
+    {
+      "switchPin": 2,
+      "name": "Alyzandra Pessanha",
+      "function": "Stage Manager",
+      "location": "Rio de Janeiro, Brazil",
+      "description": "A Stage Manager supports the staging of a show by managing logistical, administrative, and technical tasks, often acting as a key liaison between the production management team, directors, and cast. They are responsible for organizing rehearsal spaces, running errands, aiding in, and maintaining paperwork and supporting stage management during performances.",
+      "social": "@alyzandrapessanha",
+      "pastWork": ["Beetlejuice", "Mrs. Doubtfire"],
+      "color": "#5b21b6",
+      "photo": "pic/pequena.jpg",
+      "audio": "sounds/walkie-talkie_techie.mp3"
+    },
+    {
+      "switchPin": 3,
+      "name": "Alexandre Queiroz",
+      "function": "Musical Director",
+      "location": "Rio de Janeiro, Brazil",
+      "description": "A Musical Director is responsible for overseeing the musical aspects of a production, including selecting and arranging music, conducting the orchestra, and ensuring that the music supports the story and characters. They work closely with the director and actors to create a cohesive and engaging musical experience.",
+      "social": "@alexandrepianista",
+      "pastWork": ["Spring Awakening", "The Sound of Music"],
+      "color": "#9d174d",
+      "photo": "pic/ale.jpg",
+      "audio": "sounds/music_orchestra.mp3"
+    },
+    {
+      "switchPin": 4,
+      "name": "Andre Ferreira",
+      "function": "Technical Manager",
+      "location": "São Paulo, Brazil",
+      "description": "A Technical Manager is responsible for overseeing the technical aspects of a production, including lighting, sound, and stage management. They work closely with the director and actors to create a cohesive and engaging technical experience.",
+      "social": "@andref",
+      "pastWork": ["Peter Pan", "Cinderella"],
+      "color": "#0086ff",
+      "photo": "pic/andre.jpg",
+      "audio": "sounds/walkie-talkie_techie.mp3"
+    },
+    {
+      "switchPin": 5,
+      "name": "Guilherme Penedo",
+      "function": "Light Operator",
+      "location": "Belo Horizonte, Brazil",
+      "description": "A Light Operator is responsible for operating the lighting equipment for a production. They are responsible for ensuring that the lighting is appropriate for the scene and the mood of the show.",
+      "social": "@guipenedo29",
+      "pastWork": ["Beetlejuice", "Dear Evan Hansen"],
+      "color": "#400E92",
+      "photo": "pic/guip.jpg",
+      "audio": "sounds/walkie-talkie_techie.mp3"
+    },
+    {
+      "switchPin": 6,
+      "name": "Isabela Millo",
+      "function": "Usher",
+      "location": "New York, USA",
+      "description": "An usher is responsible for ensuring that the audience has a positive experience at a performance. They are responsible for seating the audience, helping them find their seats, and answering any questions they may have.",
+      "social": "@isabelamillo",
+      "pastWork": ["All Out"],
+      "color": "#064e3b",
+      "photo": "pic/isa.jpg",
+      "audio": "sounds/audience_talking.mp3"
+    },
+    {
+      "switchPin": 7,
+      "name": "Sumalee Eaton",
+      "function": "Theatrical Stitcher",
+      "location": "Orlando, USA",
+      "description": "A Theatrical Stitcher constructs, alters, and repairs costumes in a theater workshop, working under a Draper or First Hand to execute designs for stage productions. They handle specialized fabrics, industrial and hand-sewing techniques, and maintain costumes for multiple productions at a time.",
+      "social": "@sew.sumalee",
+      "pastWork": ["Theatrical Engineers' Workshop"],
+      "color": "#991b1b",
+      "photo": "pic/suma.jpg",
+      "audio": "sounds/sewing.mp3"
+    }
+  ]
+}

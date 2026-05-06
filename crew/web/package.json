@@ -1,0 +1,18 @@
+{
+  "name": "behind-the-wings",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Behind the Wings — an interactive theatrical crew installation. Web Serial connects to an Arduino with six switches; each switch reveals a different crew member with photo, bio, and audio.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "howler": "^2.2.4"
+  },
+  "devDependencies": {
+    "vite": "^5.4.10"
+  }
+}
