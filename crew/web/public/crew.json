@@ -1,7 +1,7 @@
 {
   "people": [
     {
-      "switchPin": 2,
+      "id": 2,
       "name": "Alyzandra Pessanha",
       "function": "Stage Manager",
       "location": "Rio de Janeiro, Brazil",
@@ -10,10 +10,10 @@
       "pastWork": ["Beetlejuice", "Mrs. Doubtfire"],
       "color": "#5b21b6",
       "photo": "pic/pequena.jpg",
-      "audio": "sounds/walkie-talkie_techie.mp3"
+      "audio": "sounds/music_orchestra.mp3"
     },
     {
-      "switchPin": 3,
+      "id": 3,
       "name": "Alexandre Queiroz",
       "function": "Musical Director",
       "location": "Rio de Janeiro, Brazil",
@@ -25,7 +25,7 @@
       "audio": "sounds/music_orchestra.mp3"
     },
     {
-      "switchPin": 4,
+      "id": 4,
       "name": "Andre Ferreira",
       "function": "Technical Manager",
       "location": "São Paulo, Brazil",
@@ -34,10 +34,10 @@
       "pastWork": ["Peter Pan", "Cinderella"],
       "color": "#0086ff",
       "photo": "pic/andre.jpg",
-      "audio": "sounds/walkie-talkie_techie.mp3"
+      "audio": "sounds/music_orchestra.mp3"
     },
     {
-      "switchPin": 5,
+      "id": 5,
       "name": "Guilherme Penedo",
       "function": "Light Operator",
       "location": "Belo Horizonte, Brazil",
@@ -46,10 +46,10 @@
       "pastWork": ["Beetlejuice", "Dear Evan Hansen"],
       "color": "#400E92",
       "photo": "pic/guip.jpg",
-      "audio": "sounds/walkie-talkie_techie.mp3"
+      "audio": "sounds/music_orchestra.mp3"
     },
     {
-      "switchPin": 6,
+      "id": 6,
       "name": "Isabela Millo",
       "function": "Usher",
       "location": "New York, USA",
@@ -58,10 +58,10 @@
       "pastWork": ["All Out"],
       "color": "#064e3b",
       "photo": "pic/isa.jpg",
-      "audio": "sounds/audience_talking.mp3"
+      "audio": "sounds/music_orchestra.mp3"
     },
     {
-      "switchPin": 7,
+      "id": 7,
       "name": "Sumalee Eaton",
       "function": "Theatrical Stitcher",
       "location": "Orlando, USA",
@@ -70,7 +70,7 @@
       "pastWork": ["Theatrical Engineers' Workshop"],
       "color": "#991b1b",
       "photo": "pic/suma.jpg",
-      "audio": "sounds/sewing.mp3"
+      "audio": "sounds/music_orchestra.mp3"
     }
   ]
 }

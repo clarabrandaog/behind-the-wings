@@ -11,7 +11,9 @@ import { defineConfig } from "vite";
 export default defineConfig({
   base: "./",
   server: {
+    host: "127.0.0.1",
     port: 5173,
+    strictPort: false, // if 5173 is busy, Vite tries 5174, 5175, …
     open: true,
   },
   build: {

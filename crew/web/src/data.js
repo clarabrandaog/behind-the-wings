@@ -1,7 +1,7 @@
 // data.js — async data layer.
 // Single responsibility: fetch and parse the crew JSON. Returns a pure value
-// (a Map keyed by Arduino switch pin) so the rest of the app never has to
-// re-parse or look up by index.
+// (a Map keyed by person `id`) so the rest of the app never has to re-parse
+// or look up by index.
 
 const DEFAULT_URL = "crew.json";
 
@@ -9,11 +9,11 @@ const DEFAULT_URL = "crew.json";
  * Fetch the crew roster.
  *
  * @param {string} [url] - Path or URL to a crew JSON file.
- * @returns {Promise<Map<number, Person>>} People keyed by their `switchPin`.
+ * @returns {Promise<Map<number, Person>>} People keyed by their `id`.
  * @throws  {Error} On network or parse failures.
  *
  * @typedef {Object} Person
- * @property {number}   switchPin
+ * @property {number}   id
  * @property {string}   name
  * @property {string}   function
  * @property {string}  [location]
@@ -33,10 +33,10 @@ export async function loadCrew(url = DEFAULT_URL) {
   if (!payload || !Array.isArray(payload.people)) {
     throw new Error(`crew.json malformed — expected { people: [...] }`);
   }
-  const byPin = new Map();
+  const byId = new Map();
   for (const person of payload.people) {
-    if (typeof person.switchPin !== "number") continue;
-    byPin.set(person.switchPin, person);
+    if (typeof person.id !== "number") continue;
+    byId.set(person.id, person);
   }
-  return byPin;
+  return byId;
 }

@@ -1,5 +1,6 @@
 // Behind Wings — six switches on digital pins 2..7.
 // Wire each switch from its pin to GND. INPUT_PULLUP handles the rest.
+// (Web app roster uses numeric `id` in crew.json; values 2..7 match these pins.)
 //
 // Serial protocol (115200 baud):
 //   READY                    (once on boot)
